@@ -81,42 +81,46 @@ class Draw:
         return drawn_team
 
     def get_draw(self) -> None:
-        # tirage pour chaque équipe
-        for team in self.teams:
-            # Tirage de 2 équipe par pot
-            for pot, pot_teams in self.pots.items():
-                team_name = team["nom"]
-                # On vérifie si le tirage est necessaire, c'est à dire que l'équipe a une string vide dans son tirage pour ce chapeau
-                if (
-                    self.draw[team_name][pot]["home"] != ""
-                    and self.draw[team_name][pot]["away"] != ""
-                ):
-                    continue
-                # Sinon on récupère les équipes tirables.
-                else:
-                    team_to_draw = self.get_teams_to_draw(team, pot_teams)
+        for kind in ["home", "away"]:
+            inverse = {"home": "away", "away": "home"}
+            # tirage pour chaque équipe
+            for team in self.teams:
+                team_pot = f"pot_{team['chapeau']}"
+                for pot, pot_teams in self.pots.items():
+                    team_name = team["nom"]
+                    # On vérifie si le tirage est necessaire,
+                    if self.draw[team_name][pot][kind] != "":
+                        continue
+                    # Sinon on récupère les équipes tirables.
+                    else:
+                        team_to_draw = self.get_teams_to_draw(team, pot_teams)
+                        team_to_draw_home = self.remove_team_already_drawn(
+                            team_pot, inverse[kind], team_to_draw
+                        )
+                        try:
+                            self.make_draw(
+                                team_to_draw_home, team_name, pot, kind, team
+                            )
+                        except:
+                            return False
+                    # Exportation dans un fichier json.
+                    with open("tirage.json", "w") as file:
+                        json.dump(self.draw, file, ensure_ascii=False, indent=4)
+        return True
 
-                # Si pas de tirage à domicile
-                if self.draw[team_name][pot]["home"] == "":
-                    # On récupère les équipes pouvant être tirées
-                    team_to_draw_home = self.remove_team_already_drawn(
-                        pot, "away", team_to_draw
-                    )
-                    # Tirage
-                    drawn_team = self.make_draw(
-                        team_to_draw_home, team_name, pot, "home", team
-                    )
-                    # Si pas non plus de tirage à l'exterieur, je retire l'équipe qui vient d'être tirée.
-                    if self.draw[team_name][pot]["away"] == "":
-                        team_to_draw.remove(drawn_team)
+    def run(self):
+        # Boucle principale pour relancer l'algorithme en cas d'impasse
+        successful_draw = False
+        attempt = 0
 
-                # Si pas de tirage à l'exterieur
-                if self.draw[team_name][pot]["away"] == "":
-                    team_to_draw_away = self.remove_team_already_drawn(
-                        pot, "home", team_to_draw
-                    )
-                    self.make_draw(team_to_draw_away, team_name, pot, "away", team)
+        while not successful_draw:
+            attempt += 1
+            print(f"Tentative de tirage #{attempt}...")
+            self.draw = self.get_draw_format()  # Réinitialiser le tirage
+            successful_draw = self.get_draw()  # Effectuer le tirage
 
-                # Exportation dans un fichier json.
-                with open("tirage.json", "w") as file:
-                    json.dump(self.draw, file, ensure_ascii=False, indent=4)
+        # Tirage réussi
+        print(f"Tirage réussi après {attempt} tentative(s)!")
+        # Exportation dans un fichier json.
+        with open("tirage.json", "w") as file:
+            json.dump(self.draw, file, ensure_ascii=False, indent=4)

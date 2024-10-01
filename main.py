@@ -9,4 +9,4 @@ with open("teams.json", "r") as file:
 
 draw = Draw(teams)
 
-draw.get_draw()
+draw.run()
