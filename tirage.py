@@ -47,10 +47,9 @@ class Draw:
     def remove_team_already_drawn(self, pot: str, kind: str, team_to_draw: list):
         for team, _ in self.draw.items():
             if self.draw[team][pot][kind] != "":
-                try:
+                if team in team_to_draw:
                     team_to_draw.remove(team)
-                except:
-                    continue
+
         return team_to_draw
 
     def update_drawn_team_draw(
@@ -78,6 +77,7 @@ class Draw:
         self.draw[team_name][pot][kind] = drawn_team
         inverse = {"away": "home", "home": "away"}
         self.update_drawn_team_draw(team, drawn_team, team["chapeau"], inverse[kind])
+        return drawn_team
 
     def get_draw(self) -> None:
         # tirage pour chaque équipe
@@ -91,8 +91,10 @@ class Draw:
                     and self.draw[team_name][pot]["away"] != ""
                 ):
                     continue
+                # Sinon on récupère les équipes tirables.
                 else:
                     team_to_draw = self.get_teams_to_draw(team, pot_teams)
+
                 # Si pas de tirage à domicile
                 if self.draw[team_name][pot]["home"] == "":
                     # On récupère les équipes pouvant être tirées
@@ -100,7 +102,13 @@ class Draw:
                         pot, "home", team_to_draw
                     )
                     # Tirage
-                    self.make_draw(team_to_draw_home, team_name, pot, "home", team)
+                    drawn_team = self.make_draw(
+                        team_to_draw_home, team_name, pot, "home", team
+                    )
+                    # Si pas non plus de tirage à l'exterieur, je retire l'équipe qui vient d'être tirée.
+                    if self.draw[team_name][pot]["away"] == "":
+                        team_to_draw.remove(drawn_team)
+
                 # Si pas de tirage à l'exterieur
                 if self.draw[team_name][pot]["away"] == "":
                     team_to_draw_away = self.remove_team_already_drawn(
