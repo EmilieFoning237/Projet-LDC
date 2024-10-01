@@ -39,18 +39,19 @@ class Draw:
         return team in pot
 
     def remove_team_in_same_league(self, team: dict, team_to_draw: list):
+        new_team_to_draw = team_to_draw.copy()
         for t in team_to_draw:
             if t["pays"] == team["pays"]:
-                team_to_draw.remove(t)
-        return team_to_draw
+                new_team_to_draw.remove(t)
+        return new_team_to_draw
 
     def remove_team_already_drawn(self, pot: str, kind: str, team_to_draw: list):
-        for team, _ in self.draw.items():
-            if self.draw[team][pot][kind] != "":
-                if team in team_to_draw:
-                    team_to_draw.remove(team)
+        new_team_to_draw = team_to_draw.copy()
+        for team in team_to_draw:
+            if self.draw[team["nom"]][pot][kind] != "":
+                new_team_to_draw.remove(team)
 
-        return team_to_draw
+        return new_team_to_draw
 
     def update_drawn_team_draw(
         self, draw_team: dict, drawn_team: dict, pot: str, kind: str
@@ -99,7 +100,7 @@ class Draw:
                 if self.draw[team_name][pot]["home"] == "":
                     # On récupère les équipes pouvant être tirées
                     team_to_draw_home = self.remove_team_already_drawn(
-                        pot, "home", team_to_draw
+                        pot, "away", team_to_draw
                     )
                     # Tirage
                     drawn_team = self.make_draw(
@@ -112,7 +113,7 @@ class Draw:
                 # Si pas de tirage à l'exterieur
                 if self.draw[team_name][pot]["away"] == "":
                     team_to_draw_away = self.remove_team_already_drawn(
-                        pot, "away", team_to_draw
+                        pot, "home", team_to_draw
                     )
                     self.make_draw(team_to_draw_away, team_name, pot, "away", team)
 
