@@ -45,12 +45,23 @@ class Draw:
                 new_team_to_draw.remove(t)
         return new_team_to_draw
 
-    def remove_team_already_drawn(self, pot: str, kind: str, team_to_draw: list):
+    def remove_team_already_drawn(
+        self,
+        team_pot: str,
+        kind: str,
+        team_to_draw: list,
+        draw_team: dict,
+        draw_pot: str,
+    ):
         new_team_to_draw = team_to_draw.copy()
         for team in team_to_draw:
-            if self.draw[team["nom"]][pot][kind] != "":
+            if self.draw[team["nom"]][team_pot][kind] != "":
                 new_team_to_draw.remove(team)
 
+        try:
+            new_team_to_draw.remove(self.draw[draw_team["nom"]][draw_pot][kind])
+        except:
+            pass
         return new_team_to_draw
 
     def update_drawn_team_draw(
@@ -95,7 +106,7 @@ class Draw:
                     else:
                         team_to_draw = self.get_teams_to_draw(team, pot_teams)
                         team_to_draw_home = self.remove_team_already_drawn(
-                            team_pot, inverse[kind], team_to_draw
+                            team_pot, inverse[kind], team_to_draw, team, pot
                         )
                         try:
                             self.make_draw(
@@ -118,6 +129,18 @@ class Draw:
             print(f"Tentative de tirage #{attempt}...")
             self.draw = self.get_draw_format()  # Réinitialiser le tirage
             successful_draw = self.get_draw()  # Effectuer le tirage
+
+            # Vérifier que le tirage ne contient pas de conflits
+            for team_name, pots in self.draw.items():
+                for pot, matchups in pots.items():
+                    if matchups["home"] == matchups["away"]:
+                        successful_draw = False
+                        print(
+                            f"Conflit trouvé pour {team_name} dans le pot {pot}: {matchups['home']} et {matchups['away']} sont identiques."
+                        )
+                        break  # Sortir de la boucle si un conflit est trouvé
+                if not successful_draw:
+                    break  # Sortir de la boucle principale si un conflit est trouvé
 
         # Tirage réussi
         print(f"Tirage réussi après {attempt} tentative(s)!")
