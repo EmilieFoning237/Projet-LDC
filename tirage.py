@@ -33,71 +33,81 @@ class Draw:
                 pot3.append(team)
             elif team["chapeau"] == 4:
                 pot4.append(team)
-        return {"pot1": pot1, "pot2": pot2, "pot3": pot3, "pot4": pot4}
+        return {"pot_1": pot1, "pot_2": pot2, "pot_3": pot3, "pot_4": pot4}
 
     def is_in_pot(self, team: dict, pot: list):
         return team in pot
 
-    def get_team_in_same_league(self, team, pot):
-        same_league_teams = []
-        for t in pot:
+    def remove_team_in_same_league(self, team: dict, team_to_draw: list):
+        for t in team_to_draw:
             if t["pays"] == team["pays"]:
-                same_league_teams.append(t)
+                team_to_draw.remove(t)
+        return team_to_draw
 
-    def get_team_already_drawn(self, pot: str, kind: str):
-        teams_already_drawn = []
+    def remove_team_already_drawn(self, pot: str, kind: str, team_to_draw: list):
         for team, _ in self.draw.items():
-
             if self.draw[team][pot][kind] != "":
-                for t in self.teams:
-                    if t["nom"] == team:
-                        teams_already_drawn.append(t)
-                    else:
-                        continue
-
-        return teams_already_drawn
+                try:
+                    team_to_draw.remove(team)
+                except:
+                    continue
+        return team_to_draw
 
     def update_drawn_team_draw(
         self, draw_team: dict, drawn_team: dict, pot: str, kind: str
     ):
-
+        pot = f"pot_{pot}"
         self.draw[drawn_team["nom"]][pot][kind] = draw_team
 
+    def get_teams_to_draw(self, team: dict, pot_teams: list):
+        # Récupération des équipe tirables.
+        team_to_draw = pot_teams.copy()
+        # On supprime l'équipe courante si elle est dans le pot qu'on tire
+        if self.is_in_pot(team, pot_teams):
+            team_to_draw.remove(team)
+        # On supprime les équipes de la même ligue
+        team_to_draw = self.remove_team_in_same_league(team, team_to_draw)
+        return team_to_draw
+
+    def make_draw(
+        self, teams_to_draw: list, team_name: str, pot: str, kind: str, team: dict
+    ):
+        # Tirage
+        drawn_team = random.choice(teams_to_draw)
+        # Mise à jour du tirage
+        self.draw[team_name][pot][kind] = drawn_team
+        inverse = {"away": "home", "home": "away"}
+        self.update_drawn_team_draw(team, drawn_team, team["chapeau"], inverse[kind])
+
     def get_draw(self) -> None:
-        for pot, pot_teams in self.pots.items():
-            for team in self.teams:
+        # tirage pour chaque équipe
+        for team in self.teams:
+            # Tirage de 2 équipe par pot
+            for pot, pot_teams in self.pots.items():
                 team_name = team["nom"]
-                if self.is_in_pot(team, pot_teams):
-                    team_to_draw = pot_teams.remove(team)
+                # On vérifie si le tirage est necessaire, c'est à dire que l'équipe a une string vide dans son tirage pour ce chapeau
+                if (
+                    self.draw[team_name][pot]["home"] != ""
+                    and self.draw[team_name][pot]["away"] != ""
+                ):
+                    continue
                 else:
-                    team_to_draw = pot_teams
-                same_league_teams = self.get_team_in_same_league(team, pot_teams)
-                team_to_draw = [
-                    team for team in team_to_draw if team not in same_league_teams
-                ]
+                    team_to_draw = self.get_teams_to_draw(team, pot_teams)
+                # Si pas de tirage à domicile
+                if self.draw[team_name][pot]["home"] == "":
+                    # On récupère les équipes pouvant être tirées
+                    team_to_draw_home = self.remove_team_already_drawn(
+                        pot, "home", team_to_draw
+                    )
+                    # Tirage
+                    self.make_draw(team_to_draw_home, team_name, pot, "home", team)
+                # Si pas de tirage à l'exterieur
+                if self.draw[team_name][pot]["away"] == "":
+                    team_to_draw_away = self.remove_team_already_drawn(
+                        pot, "away", team_to_draw
+                    )
+                    self.make_draw(team_to_draw_away, team_name, pot, "away", team)
 
-                already_home_drawn_teams = self.get_team_already_drawn(pot, "home")
-                already_away_drawn_teams = self.get_team_already_drawn(pot, "away")
-                team_to_draw_home = [
-                    team
-                    for team in team_to_draw
-                    if team not in already_home_drawn_teams
-                ]
-
-                team_to_draw_away = [
-                    team
-                    for team in team_to_draw
-                    if team not in already_away_drawn_teams
-                ]
-
-                home_drawn_team = random.choice(team_to_draw_home)
-                self.draw[team_name]["pot_1"]["home"] = home_drawn_team
-                self.update_drawn_team_draw(team_name, home_drawn_team, pot, "away")
-
-                away_drawn_team = random.choice(team_to_draw_away)
-                self.draw[team_name]["pot_1"]["away"] = away_drawn_team
-                self.update_drawn_team_draw(team_name, away_drawn_team, pot, "home")
-
-        # Exportation dans un fichier json.
-        with open("self.draw.json", "w") as file:
-            json.dump(self.draw, file, ensure_ascii=False, indent=4)
+                # Exportation dans un fichier json.
+                with open("tirage.json", "w") as file:
+                    json.dump(self.draw, file, ensure_ascii=False, indent=4)
