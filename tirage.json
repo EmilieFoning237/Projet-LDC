@@ -1,0 +1,2090 @@
+{
+    "Manchester City": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Manchester City",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "FC Barcelone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Atlético de Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "PSV Eindhoven",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Dinamo Zagreb",
+                "pays": "Croatie",
+                "championnat": "Prva HNL",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            }
+        }
+    },
+    "Bayern Munich": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Liverpool",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Bayern Munich",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Benfica Lisbonne",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Sporting Portugal",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "PSV Eindhoven",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "AS Monaco",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            }
+        }
+    },
+    "Real Madrid": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Real Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Bayern Munich",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Bayer Leverkusen",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Feyenoord Rotterdam",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Sporting Portugal",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Sturm Graz",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 4
+            }
+        }
+    },
+    "PSG": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Borussia Dortmund",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Sporting Portugal",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "PSV Eindhoven",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Sparta Prague",
+                "pays": "République Tchèque",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Sturm Graz",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 4
+            }
+        }
+    },
+    "Liverpool": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "PSG",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "PSG",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Étoile Rouge de Belgrade",
+                "pays": "Serbie",
+                "championnat": "SuperLiga",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Inter Milan": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "PSG",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "FC Barcelone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Juventus Turin",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Atlético de Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "PSV Eindhoven",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Feyenoord Rotterdam",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            }
+        }
+    },
+    "Borussia Dortmund": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "FC Barcelone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Shakhtar Donetsk",
+                "pays": "Ukraine",
+                "championnat": "Premyer-Liha",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Shakhtar Donetsk",
+                "pays": "Ukraine",
+                "championnat": "Premyer-Liha",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Feyenoord Rotterdam",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "PSV Eindhoven",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "RB Leipzig": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "FC Barcelone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Benfica Lisbonne",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Feyenoord Rotterdam",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Bologne",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Aston Villa",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 4
+            }
+        }
+    },
+    "FC Barcelone": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Manchester City",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Bayern Munich",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Shakhtar Donetsk",
+                "pays": "Ukraine",
+                "championnat": "Premyer-Liha",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Juventus Turin",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Étoile Rouge de Belgrade",
+                "pays": "Serbie",
+                "championnat": "SuperLiga",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Dinamo Zagreb",
+                "pays": "Croatie",
+                "championnat": "Prva HNL",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Bayer Leverkusen": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "FC Barcelone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "PSG",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Juventus Turin",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Juventus Turin",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Atlético de Madrid": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Manchester City",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Bayern Munich",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Atlético de Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Étoile Rouge de Belgrade",
+                "pays": "Serbie",
+                "championnat": "SuperLiga",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Sporting Portugal",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Sparta Prague",
+                "pays": "République Tchèque",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Atalanta Bergame": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Club Bruges",
+                "pays": "Belgique",
+                "championnat": "Jupiler Pro League",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Bayer Leverkusen",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Feyenoord Rotterdam",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Bologne",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 4
+            }
+        }
+    },
+    "Juventus Turin": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Bayern Munich",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Liverpool",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Feyenoord Rotterdam",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Lille",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "AS Monaco",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            }
+        }
+    },
+    "Benfica Lisbonne": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Juventus Turin",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Club Bruges",
+                "pays": "Belgique",
+                "championnat": "Jupiler Pro League",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Dinamo Zagreb",
+                "pays": "Croatie",
+                "championnat": "Prva HNL",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "PSV Eindhoven",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Arsenal": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Atlético de Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Étoile Rouge de Belgrade",
+                "pays": "Serbie",
+                "championnat": "SuperLiga",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Lille",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            }
+        }
+    },
+    "Club Bruges": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Manchester City",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Bayern Munich",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Benfica Lisbonne",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Lille",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "AS Monaco",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Sparta Prague",
+                "pays": "République Tchèque",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Shakhtar Donetsk": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Liverpool",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Benfica Lisbonne",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Shakhtar Donetsk",
+                "pays": "Ukraine",
+                "championnat": "Premyer-Liha",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Lille",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Feyenoord Rotterdam",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            }
+        }
+    },
+    "AC Milan": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "PSG",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Liverpool",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Club Bruges",
+                "pays": "Belgique",
+                "championnat": "Jupiler Pro League",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Bayer Leverkusen",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Sporting Portugal",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Bologne",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Sparta Prague",
+                "pays": "République Tchèque",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Feyenoord Rotterdam": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Real Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Shakhtar Donetsk",
+                "pays": "Ukraine",
+                "championnat": "Premyer-Liha",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Sporting Portugal",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Dinamo Zagreb",
+                "pays": "Croatie",
+                "championnat": "Prva HNL",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Bologne",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Sporting Portugal": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Sporting Portugal",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            }
+        }
+    },
+    "PSV Eindhoven": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Borussia Dortmund",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Manchester City",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Atlético de Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Sporting Portugal",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Étoile Rouge de Belgrade",
+                "pays": "Serbie",
+                "championnat": "SuperLiga",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "AS Monaco",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            }
+        }
+    },
+    "Dinamo Zagreb": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Manchester City",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Borussia Dortmund",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Sparta Prague",
+                "pays": "République Tchèque",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            }
+        }
+    },
+    "RB Salzbourg": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Bayer Leverkusen",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Lille": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "PSG",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Manchester City",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Club Bruges",
+                "pays": "Belgique",
+                "championnat": "Jupiler Pro League",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Young Boys",
+                "pays": "Suisse",
+                "championnat": "Super League",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Sporting Portugal",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "AS Monaco",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            }
+        }
+    },
+    "Étoile Rouge de Belgrade": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Borussia Dortmund",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Juventus Turin",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Feyenoord Rotterdam",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "AS Monaco",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Sparta Prague",
+                "pays": "République Tchèque",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Young Boys": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Liverpool",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Bayern Munich",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Juventus Turin",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Celtic": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Real Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "FC Barcelone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Atlético de Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Lille",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Étoile Rouge de Belgrade",
+                "pays": "Serbie",
+                "championnat": "SuperLiga",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Sparta Prague",
+                "pays": "République Tchèque",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Slovan Bratislava": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Borussia Dortmund",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Étoile Rouge de Belgrade",
+                "pays": "Serbie",
+                "championnat": "SuperLiga",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Sturm Graz",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 4
+            }
+        }
+    },
+    "AS Monaco": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "FC Barcelone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Real Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "PSV Eindhoven",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Étoile Rouge de Belgrade",
+                "pays": "Serbie",
+                "championnat": "SuperLiga",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Aston Villa",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 4
+            }
+        }
+    },
+    "Sparta Prague": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Real Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Feyenoord Rotterdam",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Dinamo Zagreb",
+                "pays": "Croatie",
+                "championnat": "Prva HNL",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Sparta Prague",
+                "pays": "République Tchèque",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            }
+        }
+    },
+    "Aston Villa": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Borussia Dortmund",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Lille",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Bologne": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Liverpool",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Atlético de Madrid",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Dinamo Zagreb",
+                "pays": "Croatie",
+                "championnat": "Prva HNL",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Dinamo Zagreb",
+                "pays": "Croatie",
+                "championnat": "Prva HNL",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "AS Monaco",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Gérone": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "FC Barcelone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Bayer Leverkusen",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Club Bruges",
+                "pays": "Belgique",
+                "championnat": "Jupiler Pro League",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "PSV Eindhoven",
+                "pays": "Pays-Bas",
+                "championnat": "Eredivisie",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Sparta Prague",
+                "pays": "République Tchèque",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Stuttgart": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "FC Barcelone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Dinamo Zagreb",
+                "pays": "Croatie",
+                "championnat": "Prva HNL",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "championnat": "Fortuna Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 4
+            }
+        }
+    },
+    "Sturm Graz": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "Liverpool",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Inter Milan",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Club Bruges",
+                "pays": "Belgique",
+                "championnat": "Jupiler Pro League",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Benfica Lisbonne",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "championnat": "Bundesliga Autrichienne",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "championnat": "La Liga",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "AS Monaco",
+                "pays": "France",
+                "championnat": "Ligue 1",
+                "chapeau": 4
+            }
+        }
+    },
+    "Stade Brestois": {
+        "chapeau1": {
+            "domicile": {
+                "nom": "RB Leipzig",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            },
+            "exterieur": {
+                "nom": "Borussia Dortmund",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 1
+            }
+        },
+        "chapeau2": {
+            "domicile": {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "championnat": "Premier League",
+                "chapeau": 2
+            },
+            "exterieur": {
+                "nom": "Benfica Lisbonne",
+                "pays": "Portugal",
+                "championnat": "Primeira Liga",
+                "chapeau": 2
+            }
+        },
+        "chapeau3": {
+            "domicile": {
+                "nom": "Young Boys",
+                "pays": "Suisse",
+                "championnat": "Super League",
+                "chapeau": 3
+            },
+            "exterieur": {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "championnat": "Scottish Premiership",
+                "chapeau": 3
+            }
+        },
+        "chapeau4": {
+            "domicile": {
+                "nom": "Bologne",
+                "pays": "Italie",
+                "championnat": "Serie A",
+                "chapeau": 4
+            },
+            "exterieur": {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "championnat": "Bundesliga",
+                "chapeau": 4
+            }
+        }
+    }
+}
