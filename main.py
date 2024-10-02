@@ -1,11 +1,9 @@
+# Ce module contient les instances de vos classes back et front end.
+from tirage import Draw
 import json
 
-from tirage import Draw
-
-# Ouvrir et lire le fichier JSON
 with open("teams.json", "r") as file:
     teams = json.load(file)
-
+# Création de votre instance de classe Draw
 draw = Draw(teams)
-
-draw.run()
+draw.make_draw()
