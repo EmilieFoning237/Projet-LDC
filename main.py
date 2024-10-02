@@ -2,7 +2,7 @@
 from tirage import Draw
 import json
 
-with open("teams.json", "r") as file:
+with open("data/teams.json", "r") as file:
     teams = json.load(file)
 # Création de votre instance de classe Draw
 draw = Draw(teams)
