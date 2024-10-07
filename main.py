@@ -1,5 +1,5 @@
 # Ce module contient les instances de vos classes back et front end.
-from tirage import Draw
+from draw import Draw
 import json
 
 with open("data/teams.json", "r") as file:
